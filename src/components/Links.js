@@ -5,7 +5,7 @@ function Links ({color}) {
   return (
     <div>
       <Link to = {`/colors/${color.color}`}>
-        {color.color}
+        <p className='underline'>{color.color}</p>
       </Link>
     </div>
   )
